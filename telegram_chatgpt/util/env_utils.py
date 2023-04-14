@@ -1,0 +1,13 @@
+from enum import Enum
+
+
+class ConfigEnvNames(Enum):
+    TELEGRAM_BOT_API_ENVIRONMENT_NAME = "TELEGRAM_BOT_KEY"
+    OPENAI_API_ENVIRONMENT_NAME = "OPENAI_API_KEY"
+
+    DB_PATH = "DB_PATH"
+
+    LOG_LEVEL = "LOG_LEVEL"
+    LOG_FILE = "LOG_FILE"
+
+    GPT_MODEL = "GPT_MODEL"
