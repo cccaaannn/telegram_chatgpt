@@ -5,6 +5,6 @@ class Base64Utils:
     
     @staticmethod
     def to_base64(str_val: str):
-        sample_string_bytes = str_val.encode("ascii")
+        sample_string_bytes = str_val.encode()
         base64_bytes = base64.b64encode(sample_string_bytes)
-        return base64_bytes.decode("ascii")
+        return base64_bytes.decode()
